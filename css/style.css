@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: antiquewhite;
+}
+
+body {
+  padding-top: 56px !important;
+  background-color: honeydew;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cv-section {
+  background-color: brown;
+  padding: 1em;
+}
+
+.wraper-section {
+  margin: 2em;
+  
+}
+.wraper-section:before {
+  display: block;
+  content: " ";
+  margin-top: calc(-56px - 2em);
+  height: calc(56px + 2em);
+  visibility: hidden;
+}
+
+.ficha > .titulos-datos {
+  text-align: right;
+}
+
+.ficha > .titulos-datos > p,
+.estudios-lugar {
+  font-weight: normal;
+}
+
+#contacto a,
+footer a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.marca-de-agua {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+} 
+
+.marca-de-agua img {
+  padding: 0;
+  width: auto;
+  height: 100px;
+  opacity: 0.2;
+  filter: invert(100%);
+}
